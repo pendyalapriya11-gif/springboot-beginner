@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
+
     <div class="navbar">
         <a href="/">Home</a>
         <a href="/card.html">Card</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
     </div>
-    <h1>Hello From HTML</h1>
+    <div class="card">
+        <img id="userImage" src="img/image-john.png" alt="Avatar" style="width:100%">
+        <div class="container">
+            <h3 id="userName"><b>John Doe</b></h3> 
+            <h5 id="userGender">Male</h5> 
+        </div>
+        <button onclick="toggleCard()">Toggle card</button>
+    </div> 
     <script src="js/site.js"></script>
 </body>
 </html>
