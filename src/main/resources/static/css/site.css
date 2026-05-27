@@ -32,7 +32,7 @@ h1 {
   padding: 10px;
  }
  .navbar a:hover {
-  background-color: yellow;
-  color: black;
+  background-color: #666;
+  color: white;
   /* padding: 10px; */
  }
